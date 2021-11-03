@@ -210,7 +210,7 @@
     },
     {
       "text": "%r\n\ndie \u003c- 1:6\ndie\n\n\n",
-      "user": "admin",
+      "user": "anonymous",
       "dateUpdated": "2021-11-03 16:30:01.515",
       "progress": 0,
       "config": {
@@ -611,9 +611,9 @@
       "status": "FINISHED"
     },
     {
-      "text": "%r\n\nbase::sample(x \u003d 1:4, size \u003d 2)\n\nbase::sample(x \u003d 1:4, size \u003d 2)\n\nbase::sample(x \u003d die, size \u003d 1)\n\nbase::sample(x \u003d die, size \u003d 1)\n\nbase::sample(x \u003d die, size \u003d 1)",
-      "user": "admin",
-      "dateUpdated": "2021-11-03 16:30:06.805",
+      "text": "%r\n\nbase::sample(x \u003d 1:4, size \u003d 2)\n\nbase::sample(x \u003d 1:4, size \u003d 2)\n\nbase::sample(x \u003d die, size \u003d 1)\n\nbase::sample(x \u003d die, size \u003d 1)\n\nbase::sample(x \u003d die, size \u003d 1)\n\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-03 17:57:29.465",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -652,9 +652,9 @@
       "status": "FINISHED"
     },
     {
-      "text": "%md\n\n书中使用的 `sample(x \u003d 1:4, size \u003d 2)`，但是 Zeppelin 会加载 2 个 R 的 lib，其优先使用的是 SparkR，所以我们通过 `base::sample(x \u003d 1:4, size \u003d 2)` 进行改写。",
-      "user": "admin",
-      "dateUpdated": "2021-11-03 16:32:46.191",
+      "text": "%md\n\n书中使用的 `sample(x \u003d 1:4, size \u003d 2)`，但是 Zeppelin 会加载 2 个 R 的 lib，其优先使用的是 SparkR，所以我们通过 `base::sample(x \u003d 1:4, size \u003d 2)` 进行改写。正常 sample 只会存在一个环境中，但由于 Zeppelin 默认加载了 SparkR 的环境，所以书中 `sample(x \u003d 1:4, size \u003d 2)` 代码并不能正确执行。\n\n\n下面我们也可以看到，查看 `sample` 函数的帮助文档，确实也看到了 2 个环境都包含了 `sample` 函数。",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-03 17:57:19.999",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -679,7 +679,7 @@
         "msg": [
           {
             "type": "HTML",
-            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003e书中使用的 \u003ccode\u003esample(x \u003d 1:4, size \u003d 2)\u003c/code\u003e，但是 Zeppelin 会加载 2 个 R 的 lib，其优先使用的是 SparkR，所以我们通过 \u003ccode\u003ebase::sample(x \u003d 1:4, size \u003d 2)\u003c/code\u003e 进行改写。\u003c/p\u003e\n\n\u003c/div\u003e"
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003e书中使用的 \u003ccode\u003esample(x \u003d 1:4, size \u003d 2)\u003c/code\u003e，但是 Zeppelin 会加载 2 个 R 的 lib，其优先使用的是 SparkR，所以我们通过 \u003ccode\u003ebase::sample(x \u003d 1:4, size \u003d 2)\u003c/code\u003e 进行改写。正常 sample 只会存在一个环境中，但由于 Zeppelin 默认加载了 SparkR 的环境，所以书中 \u003ccode\u003esample(x \u003d 1:4, size \u003d 2)\u003c/code\u003e 代码并不能正确执行。\u003c/p\u003e\n\u003cp\u003e下面我们也可以看到，查看 \u003ccode\u003esample\u003c/code\u003e 函数的帮助文档，确实也看到了 2 个环境都包含了 \u003ccode\u003esample\u003c/code\u003e 函数。\u003c/p\u003e\n\n\u003c/div\u003e"
           }
         ]
       },
@@ -689,14 +689,14 @@
       "jobName": "paragraph_1635922256952_1743224296",
       "id": "paragraph_1635922256952_1743224296",
       "dateCreated": "2021-11-03 14:50:56.953",
-      "dateStarted": "2021-11-03 16:32:46.190",
-      "dateFinished": "2021-11-03 16:32:53.425",
+      "dateStarted": "2021-11-03 17:57:20.001",
+      "dateFinished": "2021-11-03 17:57:20.059",
       "status": "FINISHED"
     },
     {
       "text": "%r\n\nhelp(sample)",
       "user": "admin",
-      "dateUpdated": "2021-11-03 16:33:10.726",
+      "dateUpdated": "2021-11-03 18:02:29.746",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -731,13 +731,13 @@
       "jobName": "paragraph_1635928375503_1531909935",
       "id": "paragraph_1635928375503_1531909935",
       "dateCreated": "2021-11-03 16:32:55.508",
-      "dateStarted": "2021-11-03 16:33:10.722",
-      "dateFinished": "2021-11-03 16:33:11.061",
+      "dateStarted": "2021-11-03 18:02:30.034",
+      "dateFinished": "2021-11-03 18:02:42.491",
       "status": "FINISHED"
     },
     {
       "text": "%r\n\nbase::round(3.1415, digits \u003d 2)\n\n\n\n\n\n",
-      "user": "admin",
+      "user": "anonymous",
       "dateUpdated": "2021-11-03 16:39:57.555",
       "progress": 0,
       "config": {
@@ -777,7 +777,7 @@
     },
     {
       "text": "%md\n\n使用 `args(round)` 可以查看函数的具体参数。",
-      "user": "admin",
+      "user": "anonymous",
       "dateUpdated": "2021-11-03 16:37:03.357",
       "progress": 0,
       "config": {
@@ -819,7 +819,7 @@
     },
     {
       "text": "%r\n\nargs(round)",
-      "user": "admin",
+      "user": "anonymous",
       "dateUpdated": "2021-11-03 16:36:15.858",
       "progress": 0,
       "config": {
@@ -859,7 +859,7 @@
     },
     {
       "text": "%md\n\n## 1.4 可放回抽样",
-      "user": "admin",
+      "user": "anonymous",
       "dateUpdated": "2021-11-03 16:40:25.918",
       "progress": 0,
       "config": {
@@ -901,7 +901,7 @@
     },
     {
       "text": "%r\n\nbase::sample(die, size \u003d 2, replace \u003d TRUE)",
-      "user": "admin",
+      "user": "anonymous",
       "dateUpdated": "2021-11-03 16:42:38.457",
       "progress": 0,
       "config": {
@@ -941,7 +941,7 @@
     },
     {
       "text": "%md\n\n## 1.5 编写自定义函数",
-      "user": "admin",
+      "user": "anonymous",
       "dateUpdated": "2021-11-03 16:44:02.918",
       "progress": 0,
       "config": {
@@ -983,8 +983,8 @@
     },
     {
       "text": "%r\n\ndie \u003c- 1:6\ndice \u003c- base::sample(die, size \u003d 2, replace \u003d TRUE)\nsum(dice)\n\n\n",
-      "user": "admin",
-      "dateUpdated": "2021-11-03 16:46:50.433",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-03 18:01:21.218",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1007,7 +1007,7 @@
         "msg": [
           {
             "type": "TEXT",
-            "data": "\n[1] 5\n\n\n\n"
+            "data": "\n[1] 8\n\n\n\n"
           }
         ]
       },
@@ -1017,13 +1017,13 @@
       "jobName": "paragraph_1635928920159_326567264",
       "id": "paragraph_1635928920159_326567264",
       "dateCreated": "2021-11-03 16:42:00.159",
-      "dateStarted": "2021-11-03 16:45:01.615",
-      "dateFinished": "2021-11-03 16:45:02.866",
+      "dateStarted": "2021-11-03 18:01:21.251",
+      "dateFinished": "2021-11-03 18:01:21.563",
       "status": "FINISHED"
     },
     {
       "text": "%r\n\nroll \u003c- function() {\n    die \u003c- 1:6\n    dice \u003c- base::sample(die, size \u003d 2, replace \u003d TRUE)\n    sum(dice) \n}\n\nroll()",
-      "user": "admin",
+      "user": "anonymous",
       "dateUpdated": "2021-11-03 16:46:34.727",
       "progress": 0,
       "config": {
@@ -1063,7 +1063,7 @@
     },
     {
       "text": "%r\n\ndice\n\n1 + 1\n\nsqrt(2)\n",
-      "user": "admin",
+      "user": "anonymous",
       "dateUpdated": "2021-11-03 16:47:54.209",
       "progress": 0,
       "config": {
@@ -1103,7 +1103,7 @@
     },
     {
       "text": "%r\n\ndice \u003c- base::sample(die, size \u003d 2, replace \u003d TRUE)\ntwo \u003c- 1 + 1\na \u003c- sqrt(2)",
-      "user": "admin",
+      "user": "anonymous",
       "dateUpdated": "2021-11-03 16:48:33.556",
       "progress": 0,
       "config": {
@@ -1138,7 +1138,7 @@
     },
     {
       "text": "%md\n\n## 1.6 参数",
-      "user": "admin",
+      "user": "anonymous",
       "dateUpdated": "2021-11-03 16:49:09.902",
       "progress": 0,
       "config": {
@@ -1180,7 +1180,7 @@
     },
     {
       "text": "%r\n\nroll2 \u003c- function(bones) {\n    dice \u003c- base::sample(bones, size \u003d 2, replace \u003d TRUE)\n    sum(dice) \n}\n\nroll2(bones \u003d 1:4)\n\nroll2(bones \u003d 1:6)\n\nroll2(bones \u003d 1:20)",
-      "user": "admin",
+      "user": "anonymous",
       "dateUpdated": "2021-11-03 16:52:49.556",
       "progress": 0,
       "config": {
@@ -1220,7 +1220,7 @@
     },
     {
       "text": "%r\n\nroll3 \u003c- function(bones \u003d 1:6) {\n    dice \u003c- base::sample(bones, size \u003d 2, replace \u003d TRUE)\n    sum(dice) \n}\n\nroll3()\n",
-      "user": "admin",
+      "user": "anonymous",
       "dateUpdated": "2021-11-03 16:52:46.553",
       "progress": 0,
       "config": {
