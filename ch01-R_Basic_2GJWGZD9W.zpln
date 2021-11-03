@@ -1,0 +1,1273 @@
+{
+  "paragraphs": [
+    {
+      "text": "%md\n\n# 第1章 R基础",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-03 14:33:17.705",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9.0,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch1\u003e第1章 R基础\u003c/h1\u003e\n\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1635921126934_70655584",
+      "id": "paragraph_1635921126934_70655584",
+      "dateCreated": "2021-11-03 14:32:06.934",
+      "dateStarted": "2021-11-03 14:33:17.701",
+      "dateFinished": "2021-11-03 14:33:23.992",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%md\n\n## 1.1 R的用户界面",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-03 16:37:39.745",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9.0,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003e1.1 R的用户界面\u003c/h2\u003e\n\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1635921197693_564792495",
+      "id": "paragraph_1635921197693_564792495",
+      "dateCreated": "2021-11-03 14:33:17.693",
+      "dateStarted": "2021-11-03 14:33:31.596",
+      "dateFinished": "2021-11-03 14:33:31.614",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%r\n\n1 + 1\n\n1:6",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-03 14:36:47.370",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "r",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/r",
+        "fontSize": 9.0,
+        "editorHide": false,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\n[1] 2\n[1] 1 2 3 4 5 6\n\n\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1635921222653_1235340106",
+      "id": "paragraph_1635921222653_1235340106",
+      "dateCreated": "2021-11-03 14:33:42.653",
+      "dateStarted": "2021-11-03 14:36:29.110",
+      "dateFinished": "2021-11-03 14:36:29.276",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%md\n\n## 1.2 对象",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-03 14:36:51.807",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9.0,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003e1.2 对象\u003c/h2\u003e\n\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1635921211594_2071449947",
+      "id": "paragraph_1635921211594_2071449947",
+      "dateCreated": "2021-11-03 14:33:31.594",
+      "dateStarted": "2021-11-03 14:36:51.804",
+      "dateFinished": "2021-11-03 14:36:51.818",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%r\n\na \u003c- 1\na\na + 2",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-03 14:38:11.357",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "r",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "colWidth": 6.0,
+        "editorMode": "ace/mode/r",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\n[1] 1\n[1] 3\n\n\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1635921411801_1043963565",
+      "id": "paragraph_1635921411801_1043963565",
+      "dateCreated": "2021-11-03 14:36:51.802",
+      "dateStarted": "2021-11-03 14:37:26.571",
+      "dateFinished": "2021-11-03 14:37:26.708",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%r\n\ndie \u003c- 1:6\ndie\n\n\n",
+      "user": "admin",
+      "dateUpdated": "2021-11-03 16:30:01.515",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "r",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "colWidth": 6.0,
+        "editorMode": "ace/mode/r",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\n[1] 1 2 3 4 5 6\n\n\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1635921435372_70614813",
+      "id": "paragraph_1635921435372_70614813",
+      "dateCreated": "2021-11-03 14:37:15.373",
+      "dateStarted": "2021-11-03 16:30:01.537",
+      "dateFinished": "2021-11-03 16:30:01.820",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%r\n\nmy_number \u003c- 1\nmy_number\n\nmy_number \u003c- 999\nmy_number",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-03 14:40:12.978",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "r",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "colWidth": 6.0,
+        "editorMode": "ace/mode/r",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\n[1] 1\n[1] 999\n\n\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1635921501615_1646450699",
+      "id": "paragraph_1635921501615_1646450699",
+      "dateCreated": "2021-11-03 14:38:21.615",
+      "dateStarted": "2021-11-03 14:40:03.052",
+      "dateFinished": "2021-11-03 14:40:03.305",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%r\n\nls()",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-03 14:41:06.428",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "r",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "colWidth": 6.0,
+        "editorMode": "ace/mode/r",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\n[1] “a”                “authSecret”       “die”              “hashCode”\n [5] “isSparkSupported” “libPath”          “my_number”        “port”\n [9] “req”              “ret”              “stmt”             “timeout”\n[13] “type”             “value”            “version”          “z.angular”\n[17] “z.angularBind”    “z.angularUnbind”  “z.get”            “z.getAsDataFrame”\n[21] “z.notePassword”   “z.noteTextbox”    “z.password”       “z.put”\n[25] “z.run”            “z.runAll”         “z.runNote”        “z.textbox”       \n\n\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1635921603051_1745344122",
+      "id": "paragraph_1635921603051_1745344122",
+      "dateCreated": "2021-11-03 14:40:03.051",
+      "dateStarted": "2021-11-03 14:41:06.434",
+      "dateFinished": "2021-11-03 14:41:06.553",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%r\n\ndie - 1\n\ndie / 2\n\ndie * die",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-03 14:44:48.931",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "r",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/r",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\n[1] 0 1 2 3 4 5\n[1] 0.5 1.0 1.5 2.0 2.5 3.0\n[1]  1  4  9 16 25 36\n\n\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1635921666432_35102859",
+      "id": "paragraph_1635921666432_35102859",
+      "dateCreated": "2021-11-03 14:41:06.432",
+      "dateStarted": "2021-11-03 14:41:49.870",
+      "dateFinished": "2021-11-03 14:41:49.994",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%r\n\n1:2\n\n1:4\n\ndie\n\ndie + 1:2\n\ndie + 1:4",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-03 14:44:54.200",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "r",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "colWidth": 6.0,
+        "editorMode": "ace/mode/r",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\n[1] 1 2\n[1] 1 2 3 4\n[1] 1 2 3 4 5 6\n[1] 2 4 4 6 6 8\n[1] 2 4 6 8 6 8\n\n\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1635921709868_418456879",
+      "id": "paragraph_1635921709868_418456879",
+      "dateCreated": "2021-11-03 14:41:49.868",
+      "dateStarted": "2021-11-03 14:43:05.921",
+      "dateFinished": "2021-11-03 14:43:06.099",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%r\n\ndie %*% die\n\ndie %o% die",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-03 14:44:59.988",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "r",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "colWidth": 6.0,
+        "editorMode": "ace/mode/r",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\n [,1]\n\n\n[1,]   91\n     [,1] [,2] [,3] [,4] [,5] [,6]\n[1,]    1    2    3    4    5    6\n[2,]    2    4    6    8   10   12\n[3,]    3    6    9   12   15   18\n[4,]    4    8   12   16   20   24\n[5,]    5   10   15   20   25   30\n[6,]    6   12   18   24   30   36\n\n\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1635921785919_940084935",
+      "id": "paragraph_1635921785919_940084935",
+      "dateCreated": "2021-11-03 14:43:05.919",
+      "dateStarted": "2021-11-03 14:44:21.174",
+      "dateFinished": "2021-11-03 14:44:21.328",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%r\n\nt(die)\n\ndet(die %o% die)",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-03 14:47:29.044",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "r",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "colWidth": 6.0,
+        "editorMode": "ace/mode/r",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\n [,1] [,2] [,3] [,4] [,5] [,6]\n\n\n[1,]    1    2    3    4    5    6\n[1] 0\n\n\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1635921861171_1274971109",
+      "id": "paragraph_1635921861171_1274971109",
+      "dateCreated": "2021-11-03 14:44:21.171",
+      "dateStarted": "2021-11-03 14:47:29.055",
+      "dateFinished": "2021-11-03 14:47:29.344",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%md\n\n## 1.3 函数",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-03 14:47:45.938",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9.0,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003e1.3 函数\u003c/h2\u003e\n\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1635921901924_398095441",
+      "id": "paragraph_1635921901924_398095441",
+      "dateCreated": "2021-11-03 14:45:01.931",
+      "dateStarted": "2021-11-03 14:47:45.947",
+      "dateFinished": "2021-11-03 14:47:46.070",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%r\n\nround(3.1415)\n\n# factorial 表示阶乘\nfactorial(3)",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-03 14:48:49.786",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "r",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "colWidth": 6.0,
+        "editorMode": "ace/mode/r",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\n[1] 3\n[1] 6\n\n\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1635922065935_788328727",
+      "id": "paragraph_1635922065935_788328727",
+      "dateCreated": "2021-11-03 14:47:45.936",
+      "dateStarted": "2021-11-03 14:48:13.246",
+      "dateFinished": "2021-11-03 14:48:13.723",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%r\n\nmean(1:6)\n\nmean(die)\n\nround(mean(die))",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-03 14:49:26.342",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "r",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "colWidth": 6.0,
+        "editorMode": "ace/mode/r",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\n[1] 3.5\n[1] 3.5\n[1] 4\n\n\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1635922093243_802837474",
+      "id": "paragraph_1635922093243_802837474",
+      "dateCreated": "2021-11-03 14:48:13.244",
+      "dateStarted": "2021-11-03 14:49:19.274",
+      "dateFinished": "2021-11-03 14:49:19.739",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%r\n\nbase::sample(x \u003d 1:4, size \u003d 2)\n\nbase::sample(x \u003d 1:4, size \u003d 2)\n\nbase::sample(x \u003d die, size \u003d 1)\n\nbase::sample(x \u003d die, size \u003d 1)\n\nbase::sample(x \u003d die, size \u003d 1)",
+      "user": "admin",
+      "dateUpdated": "2021-11-03 16:30:06.805",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "r",
+          "editOnDblClick": false,
+          "completionSupport": true,
+          "completionKey": "TAB"
+        },
+        "colWidth": 6.0,
+        "editorMode": "ace/mode/r",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\n[1] 4 2\n[1] 3 2\n[1] 4\n[1] 6\n[1] 4\n\n\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1635922159268_630887058",
+      "id": "paragraph_1635922159268_630887058",
+      "dateCreated": "2021-11-03 14:49:19.268",
+      "dateStarted": "2021-11-03 16:30:06.841",
+      "dateFinished": "2021-11-03 16:30:07.131",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%md\n\n书中使用的 `sample(x \u003d 1:4, size \u003d 2)`，但是 Zeppelin 会加载 2 个 R 的 lib，其优先使用的是 SparkR，所以我们通过 `base::sample(x \u003d 1:4, size \u003d 2)` 进行改写。",
+      "user": "admin",
+      "dateUpdated": "2021-11-03 16:32:46.191",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 6.0,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true,
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003e书中使用的 \u003ccode\u003esample(x \u003d 1:4, size \u003d 2)\u003c/code\u003e，但是 Zeppelin 会加载 2 个 R 的 lib，其优先使用的是 SparkR，所以我们通过 \u003ccode\u003ebase::sample(x \u003d 1:4, size \u003d 2)\u003c/code\u003e 进行改写。\u003c/p\u003e\n\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1635922256952_1743224296",
+      "id": "paragraph_1635922256952_1743224296",
+      "dateCreated": "2021-11-03 14:50:56.953",
+      "dateStarted": "2021-11-03 16:32:46.190",
+      "dateFinished": "2021-11-03 16:32:53.425",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%r\n\nhelp(sample)",
+      "user": "admin",
+      "dateUpdated": "2021-11-03 16:33:10.726",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "r",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "colWidth": 6.0,
+        "editorMode": "ace/mode/r",
+        "fontSize": 9.0,
+        "editorHide": false,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\nHelp on topic \u0027sample\u0027 was found in the following packages:\n\nPackage               Library\n  SparkR                /home/yumingmin/.sdkman/candidates/spark/3.1.2/R/lib\n  base                  /usr/lib/R/library\n\nUsing the first match …\n\n\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1635928375503_1531909935",
+      "id": "paragraph_1635928375503_1531909935",
+      "dateCreated": "2021-11-03 16:32:55.508",
+      "dateStarted": "2021-11-03 16:33:10.722",
+      "dateFinished": "2021-11-03 16:33:11.061",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%r\n\nbase::round(3.1415, digits \u003d 2)\n\n\n\n\n\n",
+      "user": "admin",
+      "dateUpdated": "2021-11-03 16:39:57.555",
+      "progress": 0,
+      "config": {
+        "colWidth": 6.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "r",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/r"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\n[1] 3.14\n\n\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1635922657028_1635142815",
+      "id": "paragraph_1635922657028_1635142815",
+      "dateCreated": "2021-11-03 14:57:37.032",
+      "dateStarted": "2021-11-03 16:36:02.522",
+      "dateFinished": "2021-11-03 16:36:02.705",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%md\n\n使用 `args(round)` 可以查看函数的具体参数。",
+      "user": "admin",
+      "dateUpdated": "2021-11-03 16:37:03.357",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 6.0,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9.0,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003e使用 \u003ccode\u003eargs(round)\u003c/code\u003e 可以查看函数的具体参数。\u003c/p\u003e\n\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1635928592020_315251904",
+      "id": "paragraph_1635928592020_315251904",
+      "dateCreated": "2021-11-03 16:36:32.020",
+      "dateStarted": "2021-11-03 16:37:03.358",
+      "dateFinished": "2021-11-03 16:37:03.377",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%r\n\nargs(round)",
+      "user": "admin",
+      "dateUpdated": "2021-11-03 16:36:15.858",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "r",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "colWidth": 6.0,
+        "editorMode": "ace/mode/r",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\nfunction (x, digits \u003d 0) \nNULL\n\n\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1635928487400_1949613052",
+      "id": "paragraph_1635928487400_1949613052",
+      "dateCreated": "2021-11-03 16:34:47.401",
+      "dateStarted": "2021-11-03 16:35:52.255",
+      "dateFinished": "2021-11-03 16:35:52.446",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%md\n\n## 1.4 可放回抽样",
+      "user": "admin",
+      "dateUpdated": "2021-11-03 16:40:25.918",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9.0,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003e1.4 可放回抽样\u003c/h2\u003e\n\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1635928533189_379081535",
+      "id": "paragraph_1635928533189_379081535",
+      "dateCreated": "2021-11-03 16:35:33.189",
+      "dateStarted": "2021-11-03 16:40:25.912",
+      "dateFinished": "2021-11-03 16:40:25.973",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%r\n\nbase::sample(die, size \u003d 2, replace \u003d TRUE)",
+      "user": "admin",
+      "dateUpdated": "2021-11-03 16:42:38.457",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "r",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/r",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\n[1] 3 3\n\n\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1635928825909_1528228737",
+      "id": "paragraph_1635928825909_1528228737",
+      "dateCreated": "2021-11-03 16:40:25.910",
+      "dateStarted": "2021-11-03 16:42:38.463",
+      "dateFinished": "2021-11-03 16:42:38.583",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%md\n\n## 1.5 编写自定义函数",
+      "user": "admin",
+      "dateUpdated": "2021-11-03 16:44:02.918",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9.0,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003e1.5 编写自定义函数\u003c/h2\u003e\n\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1635929030676_2037910531",
+      "id": "paragraph_1635929030676_2037910531",
+      "dateCreated": "2021-11-03 16:43:50.677",
+      "dateStarted": "2021-11-03 16:44:02.918",
+      "dateFinished": "2021-11-03 16:44:02.933",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%r\n\ndie \u003c- 1:6\ndice \u003c- base::sample(die, size \u003d 2, replace \u003d TRUE)\nsum(dice)\n\n\n",
+      "user": "admin",
+      "dateUpdated": "2021-11-03 16:46:50.433",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "r",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "colWidth": 6.0,
+        "editorMode": "ace/mode/r",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\n[1] 5\n\n\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1635928920159_326567264",
+      "id": "paragraph_1635928920159_326567264",
+      "dateCreated": "2021-11-03 16:42:00.159",
+      "dateStarted": "2021-11-03 16:45:01.615",
+      "dateFinished": "2021-11-03 16:45:02.866",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%r\n\nroll \u003c- function() {\n    die \u003c- 1:6\n    dice \u003c- base::sample(die, size \u003d 2, replace \u003d TRUE)\n    sum(dice) \n}\n\nroll()",
+      "user": "admin",
+      "dateUpdated": "2021-11-03 16:46:34.727",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "r",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "colWidth": 6.0,
+        "editorMode": "ace/mode/r",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\n[1] 9\n\n\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1635929101601_2124683801",
+      "id": "paragraph_1635929101601_2124683801",
+      "dateCreated": "2021-11-03 16:45:01.609",
+      "dateStarted": "2021-11-03 16:46:34.857",
+      "dateFinished": "2021-11-03 16:46:35.116",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%r\n\ndice\n\n1 + 1\n\nsqrt(2)\n",
+      "user": "admin",
+      "dateUpdated": "2021-11-03 16:47:54.209",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "r",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "colWidth": 6.0,
+        "editorMode": "ace/mode/r",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\n[1] 1 4\n[1] 2\n[1] 1.414214\n\n\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1635929194730_305297970",
+      "id": "paragraph_1635929194730_305297970",
+      "dateCreated": "2021-11-03 16:46:34.731",
+      "dateStarted": "2021-11-03 16:47:49.759",
+      "dateFinished": "2021-11-03 16:47:50.274",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%r\n\ndice \u003c- base::sample(die, size \u003d 2, replace \u003d TRUE)\ntwo \u003c- 1 + 1\na \u003c- sqrt(2)",
+      "user": "admin",
+      "dateUpdated": "2021-11-03 16:48:33.556",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "r",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "colWidth": 6.0,
+        "editorMode": "ace/mode/r",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1635929269755_790545854",
+      "id": "paragraph_1635929269755_790545854",
+      "dateCreated": "2021-11-03 16:47:49.755",
+      "dateStarted": "2021-11-03 16:48:29.701",
+      "dateFinished": "2021-11-03 16:48:30.025",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%md\n\n## 1.6 参数",
+      "user": "admin",
+      "dateUpdated": "2021-11-03 16:49:09.902",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9.0,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003e1.6 参数\u003c/h2\u003e\n\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1635929329977_1016014240",
+      "id": "paragraph_1635929329977_1016014240",
+      "dateCreated": "2021-11-03 16:48:49.977",
+      "dateStarted": "2021-11-03 16:49:09.906",
+      "dateFinished": "2021-11-03 16:49:10.003",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%r\n\nroll2 \u003c- function(bones) {\n    dice \u003c- base::sample(bones, size \u003d 2, replace \u003d TRUE)\n    sum(dice) \n}\n\nroll2(bones \u003d 1:4)\n\nroll2(bones \u003d 1:6)\n\nroll2(bones \u003d 1:20)",
+      "user": "admin",
+      "dateUpdated": "2021-11-03 16:52:49.556",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "r",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "colWidth": 6.0,
+        "editorMode": "ace/mode/r",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\n[1] 6\n[1] 8\n[1] 29\n\n\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1635929309698_1549565126",
+      "id": "paragraph_1635929309698_1549565126",
+      "dateCreated": "2021-11-03 16:48:29.698",
+      "dateStarted": "2021-11-03 16:52:49.568",
+      "dateFinished": "2021-11-03 16:52:49.736",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%r\n\nroll3 \u003c- function(bones \u003d 1:6) {\n    dice \u003c- base::sample(bones, size \u003d 2, replace \u003d TRUE)\n    sum(dice) \n}\n\nroll3()\n",
+      "user": "admin",
+      "dateUpdated": "2021-11-03 16:52:46.553",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "r",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "colWidth": 6.0,
+        "editorMode": "ace/mode/r",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\n[1] 8\n\n\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1635929472710_288922303",
+      "id": "paragraph_1635929472710_288922303",
+      "dateCreated": "2021-11-03 16:51:12.710",
+      "dateStarted": "2021-11-03 16:52:46.565",
+      "dateFinished": "2021-11-03 16:52:46.789",
+      "status": "FINISHED"
+    }
+  ],
+  "name": "ch01-R_Basic",
+  "id": "2GJWGZD9W",
+  "defaultInterpreterGroup": "r",
+  "version": "0.10.0",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {},
+  "config": {
+    "isZeppelinNotebookCronEnable": false
+  },
+  "info": {}
+}
